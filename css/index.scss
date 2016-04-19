@@ -1,0 +1,448 @@
+*{margin:0px; padding:0px;}
+body, html {font-family: "microsoft yahei";font-size: 12px; position:relative; background: #000;  overflow-x:hidden;}
+ul, ol, body, html, p ,dd,dl,h1{ margin: 0;padding: 0;}
+ul, ol, li {list-style-type: none;}
+img{border:none}
+.clear{clear:both}
+a{transition:all 0.2s ease-in; color:#ffbc74;text-decoration:none;cursor: pointer;}
+.fd_resize{width:1100px; margin:0 auto; overflow: hidden;}
+
+@mixin bgPosition($left)
+{
+    background-position: $left 0px;
+}
+
+$color_red:#af272b;
+$color_3:#333;
+$color_6:#666;
+$color_9:#999;
+$color_yellow:#ffe1a6;
+$color_white:#fff;
+$f18:18px;
+$f16:16px;
+$f14:14px;
+$f12:12px;
+
+.f18{font-size:$f18;}
+.f16{font-size:$f16;}
+.f14{font-size:$f14;}
+.f12{font-size:$f12;}
+.c_yellow{color:$color_yellow;}
+.c_white{color:$color_white;}
+.tc{text-align: center;}
+.uline{text-decoration: underline;}
+
+#fd_header{
+    position: relative;
+    z-index:1;
+    height:70px;
+    width:100%;
+    padding:10px 0;
+    background:#fff;
+    border-top:3px solid #e25353;
+    .fd_logo{
+        float:left;
+        width:360px;
+        height:70px;
+    }
+    .fd_link{
+        width:200px;
+        float:right;
+        p{
+            padding-top:30px;
+            a{
+                font-size:14px;
+                color:#666;
+                &:hover{
+                    color:#e25353;
+                }
+            }
+        }
+    }
+}
+
+#fd_container{
+    position: relative;
+    z-index: 1;
+    width:100%;
+    .fd_cont1{
+        width:1920px;
+        margin:0 auto;
+        height:689px;
+        background:url(../img/fd_bg_01.jpg) center top no-repeat;
+    }
+    .fd_cont2{
+        width:1920px;
+        margin:0 auto;
+        height:840px;
+        background:url(../img/fd_bg_02.jpg) center top no-repeat;
+        .lottery{
+            width:100%; overflow: hidden;
+            .lottery_list{
+                float:left;
+                background:url(../img/fd_img_03_04_03.jpg) center top no-repeat;
+                width:766px;
+                height:506px;
+                margin-top:6px;
+                ul{
+                    padding:134px 0px 0 50px;
+                    li{
+                        float:left;
+                        width: 154px;
+                        height:154px;
+                        padding-right:15px;
+                        .item{
+                            display: block;
+                            background-color:#981a1e;
+                            background:url(../img/fd_item.png) no-repeat;
+                            width: 154px;
+                            height:154px;
+                            &:hover{
+                                background-color:#f4ac5e;
+                            }
+                        }
+                        .item1{
+                            @include bgPosition(0px);
+                        }
+                        .item2{
+                            @include bgPosition(-154px);
+                        }
+                        .item3{
+                            @include bgPosition(-308px);
+                        }
+                        .item4{
+                            @include bgPosition(-462px);
+                        }
+                        .item5{
+                            @include bgPosition(-616px);
+                        }
+                        .item6{
+                            @include bgPosition(-770px);
+                        }
+                        .item7{
+                            @include bgPosition(-924px);
+                        }
+                        .item8{
+                            @include bgPosition(-1078px);
+                        }
+                    }
+                }
+            }
+            .lottery_user{
+                float:right;
+                width:321px;
+                padding-top:78px;
+                margin-right:-2px;
+                .lottery_user_top{
+                    height:25px;
+                    background:url(../img/fd_img_06.jpg) center top no-repeat;
+                }
+                .lottery_user_cont{
+                    height:400px;
+                    background:url(../img/fd_img_09.jpg) center top repeat-y;
+                    padding:0px 25px;
+                    overflow:hidden;
+                    h2{
+                        color:$color_red;
+                        font-size:18px;
+                    }
+                    ul{
+                        padding-top:15px;
+                        li{
+                            font-size:14px;
+                            width:100%;
+                            padding-bottom:16px;
+                            color:$color_red;
+                            span{
+                                color:$color_6;
+                                padding-right:10px;
+                            }
+                        }
+                    }
+                }
+                .lottery_user_foot{
+                    height:13px;
+                    background:url(../img/fd_img_11.jpg) center top repeat-y;
+                }
+            }
+        }
+        .award{
+            width:100%;
+            overflow: hidden;
+            padding-top:15px;
+            .award_list{
+                float:left;
+                width:740px;
+                height:278px;
+                padding:10px;
+                border:2px solid #811315;
+                border-radius:5px;
+                background:#8c1519;
+                 h2{
+                    color:$color_yellow;
+                    font-size:18px;
+                }
+                .award_c{
+                    width:100%;
+                    overflow:hidden;
+                    ul{
+                        li{
+                            float:left;
+                            width:33%;
+                            text-align:center;
+                            padding-bottom:10px;
+                            img{
+                                width:131px;
+                                height:81px;
+                                padding-bottom:10px;
+                                
+                            }
+                            p{
+                                color:#fff;
+                                font-size:14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .award_login{
+                float:right;
+                border:2px solid #811315;
+                border-radius:5px;
+                width:298px;
+                height:298px;
+                margin-right:5px;
+                overflow: hidden;
+                .login_out{
+                    text-align:center;
+                    .f18{
+                        color:#fff;
+                        padding-top:80px;
+                    }
+                    .btn{
+                        padding:30px 10px 25px 10px;
+                        a{
+                            background:#ffbc74;
+                            color:$color_red;
+                            padding:14px 30px;
+                            border-radius:5px;
+                            font-size:16px;
+                            font-weight:bold;
+                        }
+                    }
+                    .f14{
+                        color:$color_yellow;
+                        padding-top:10px;
+                        a{
+                            color:$color_yellow;
+                            text-decoration: underline;
+                            &:hover{
+                                color:$color_red;
+                            }
+                        }
+                    }
+                    
+                }
+                .login_in{
+                    p{
+                        padding-bottom:7px;
+                    }
+                    .text1{
+                        padding:10px;
+                        .f18{
+                            color:#fff;
+                        }
+                        .jd{
+                            padding-top:15px;
+                            height:14px; 
+                            background:url(../img/fd_login_line_03.jpg) center bottom no-repeat;
+                            padding-bottom:21px;
+                            margin-bottom:10px;
+                            dl{
+                                width:100%;
+                                overflow: hidden;
+                                dt{
+                                    float:left;
+                                    width:35px;
+                                    font-size:12px;
+                                    color:$color_yellow;
+                                }
+                                dd{
+                                    background:#811315;
+                                    height:10px;
+                                    border-radius:5px;
+                                    width:238px;
+                                    position:relative;
+                                    float:left;
+                                    i{
+                                        display:block;
+                                        position:absolute;
+                                        top:0px;
+                                        left:0px;
+                                        height:10px;
+                                        background:#ffe1a6;
+                                        border-radius:5px;
+                                        width:50%;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                    .text2{
+                       background:#811315;
+                       padding:10px; 
+                    }
+                }
+            }
+        }
+        
+    }
+    .fd_cont3{
+        width:1920px;
+        margin:0 auto;
+        height:571px;
+        background:url(../img/fd_bg_03.jpg) center top no-repeat;
+        overflow: hidden;
+        .fd_gz{
+            padding-top:20px;
+            color:$color_yellow;
+            dl{
+                dt{
+                    font-size:18px;
+                    padding-bottom:16px;
+                }
+                dd{
+                    font-size:14px;
+                    line-height:24px;
+                }
+            }
+        }
+        .fd_btn{
+            padding-top:80px;
+            width:100%;
+            overflow:hidden;
+            text-align:center;
+            a{
+                display:inline-block;
+                *display:inline;
+                *zoom:1;
+                width:262px;
+                height:72px;
+                line-height:60px;
+                font-size:22px;
+                color:$color_red;
+                font-weight: bold;
+                text-align:center;
+                background:url(../img/fd_btn.png) center top no-repeat;
+                margin:0 20px;
+                &:hover{
+                    text-shadow:1px 1px 0px #666;
+                }
+            }
+        }
+    }
+}
+
+#snow{
+    position:relative;
+    z-index:2;
+    .snow-container{
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%;
+        pointer-events: none; 
+        z-index: 2;
+    }
+}
+
+#tip{
+    display: none;
+    .tip_bg{
+        background:url(../img/alert_black.png) repeat;
+        width:100%;
+        height:100%;
+        position:fixed;
+        top:0px;
+        left:0px;
+        z-index:100;
+    }
+    .tip_main{
+        width:532px;
+        height:488px;
+        background:url(../img/alert_bg.png) center top no-repeat;
+        position:fixed;
+        top:50%;
+        left:50%;
+        margin-left:-266px;
+        margin-top:-244px;
+        z-index:101;
+        .tip_main_close{
+            width:30px;
+            height:30px;
+            background:url(../img/fd_close.png) center center no-repeat;
+            position:absolute;
+            right:20px;
+            top:20px;
+            cursor:pointer;
+        }
+        .tip_main_cont{
+            .tip_main_t{
+                overflow: hidden;
+                text-align: center;
+                height:268px;
+                padding:20px;
+                text-align: center;
+                h2{
+                    font-size:40px;
+                    color:#fff;
+                    padding-top:100px;
+                }
+                p{
+                    padding-top:10px;
+                    font-size:18px;
+                    line-height:28px;
+                    color:#fff;
+                }
+                img{
+                    margin-top:-16px;
+                }
+            }
+            .tip_main_f{
+                overflow: hidden;
+                padding:20px;
+                height:138px;
+                text-align:center;
+                .btn{
+                    background:#ff4338;
+                    font-size:20px;
+                    padding:16px 60px;
+                    color:#fff;
+                    text-align:center;
+                    border-radius:5px;
+                    display: block;
+                    width:140px;
+                    margin:0 auto;
+                    &:hover{
+                        background:#f00c01;
+                        box-shadow:5px 5px 5px #999;
+                    }
+                }
+                p{
+                    font-size:16px;
+                    color:#666;
+                    padding:10px 0;
+                    a{
+                        color:#4a97d2;
+                        text-decoration: underline;
+                        padding:0 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body, html {
+  font-family: "microsoft yahei";
+  font-size: 12px;
+  position: relative;
+  background: #000;
+  overflow-x: hidden; }
+
+ul, ol, body, html, p, dd, dl, h1 {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style-type: none; }
+
+img {
+  border: none; }
+
+.clear {
+  clear: both; }
+
+a {
+  transition: all 0.2s ease-in;
+  color: #ffbc74;
+  text-decoration: none;
+  cursor: pointer; }
+
+.fd_resize {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.f18 {
+  font-size: 18px; }
+
+.f16 {
+  font-size: 16px; }
+
+.f14 {
+  font-size: 14px; }
+
+.f12 {
+  font-size: 12px; }
+
+.c_yellow {
+  color: #ffe1a6; }
+
+.c_white {
+  color: #fff; }
+
+.tc {
+  text-align: center; }
+
+.uline {
+  text-decoration: underline; }
+
+#fd_header {
+  position: relative;
+  z-index: 1;
+  height: 70px;
+  width: 100%;
+  padding: 10px 0;
+  background: #fff;
+  border-top: 3px solid #e25353; }
+  #fd_header .fd_logo {
+    float: left;
+    width: 360px;
+    height: 70px; }
+  #fd_header .fd_link {
+    width: 200px;
+    float: right; }
+    #fd_header .fd_link p {
+      padding-top: 30px; }
+      #fd_header .fd_link p a {
+        font-size: 14px;
+        color: #666; }
+        #fd_header .fd_link p a:hover {
+          color: #e25353; }
+
+#fd_container {
+  position: relative;
+  z-index: 1;
+  width: 100%; }
+  #fd_container .fd_cont1 {
+    width: 1920px;
+    margin: 0 auto;
+    height: 689px;
+    background: url(../img/fd_bg_01.jpg) center top no-repeat; }
+  #fd_container .fd_cont2 {
+    width: 1920px;
+    margin: 0 auto;
+    height: 840px;
+    background: url(../img/fd_bg_02.jpg) center top no-repeat; }
+    #fd_container .fd_cont2 .lottery {
+      width: 100%;
+      overflow: hidden; }
+      #fd_container .fd_cont2 .lottery .lottery_list {
+        float: left;
+        background: url(../img/fd_img_03_04_03.jpg) center top no-repeat;
+        width: 766px;
+        height: 506px;
+        margin-top: 6px; }
+        #fd_container .fd_cont2 .lottery .lottery_list ul {
+          padding: 134px 0px 0 50px; }
+          #fd_container .fd_cont2 .lottery .lottery_list ul li {
+            float: left;
+            width: 154px;
+            height: 154px;
+            padding-right: 15px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item {
+              display: block;
+              background-color: #981a1e;
+              background: url(../img/fd_item.png) no-repeat;
+              width: 154px;
+              height: 154px; }
+              #fd_container .fd_cont2 .lottery .lottery_list ul li .item:hover {
+                background-color: #f4ac5e; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item1 {
+              background-position: 0px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item2 {
+              background-position: -154px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item3 {
+              background-position: -308px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item4 {
+              background-position: -462px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item5 {
+              background-position: -616px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item6 {
+              background-position: -770px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item7 {
+              background-position: -924px 0px; }
+            #fd_container .fd_cont2 .lottery .lottery_list ul li .item8 {
+              background-position: -1078px 0px; }
+      #fd_container .fd_cont2 .lottery .lottery_user {
+        float: right;
+        width: 321px;
+        padding-top: 78px;
+        margin-right: -2px; }
+        #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_top {
+          height: 25px;
+          background: url(../img/fd_img_06.jpg) center top no-repeat; }
+        #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_cont {
+          height: 400px;
+          background: url(../img/fd_img_09.jpg) center top repeat-y;
+          padding: 0px 25px;
+          overflow: hidden; }
+          #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_cont h2 {
+            color: #af272b;
+            font-size: 18px; }
+          #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_cont ul {
+            padding-top: 15px; }
+            #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_cont ul li {
+              font-size: 14px;
+              width: 100%;
+              padding-bottom: 16px;
+              color: #af272b; }
+              #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_cont ul li span {
+                color: #666;
+                padding-right: 10px; }
+        #fd_container .fd_cont2 .lottery .lottery_user .lottery_user_foot {
+          height: 13px;
+          background: url(../img/fd_img_11.jpg) center top repeat-y; }
+    #fd_container .fd_cont2 .award {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 15px; }
+      #fd_container .fd_cont2 .award .award_list {
+        float: left;
+        width: 740px;
+        height: 278px;
+        padding: 10px;
+        border: 2px solid #811315;
+        border-radius: 5px;
+        background: #8c1519; }
+        #fd_container .fd_cont2 .award .award_list h2 {
+          color: #ffe1a6;
+          font-size: 18px; }
+        #fd_container .fd_cont2 .award .award_list .award_c {
+          width: 100%;
+          overflow: hidden; }
+          #fd_container .fd_cont2 .award .award_list .award_c ul li {
+            float: left;
+            width: 33%;
+            text-align: center;
+            padding-bottom: 10px; }
+            #fd_container .fd_cont2 .award .award_list .award_c ul li img {
+              width: 131px;
+              height: 81px;
+              padding-bottom: 10px; }
+            #fd_container .fd_cont2 .award .award_list .award_c ul li p {
+              color: #fff;
+              font-size: 14px; }
+      #fd_container .fd_cont2 .award .award_login {
+        float: right;
+        border: 2px solid #811315;
+        border-radius: 5px;
+        width: 298px;
+        height: 298px;
+        margin-right: 5px;
+        overflow: hidden; }
+        #fd_container .fd_cont2 .award .award_login .login_out {
+          text-align: center; }
+          #fd_container .fd_cont2 .award .award_login .login_out .f18 {
+            color: #fff;
+            padding-top: 80px; }
+          #fd_container .fd_cont2 .award .award_login .login_out .btn {
+            padding: 30px 10px 25px 10px; }
+            #fd_container .fd_cont2 .award .award_login .login_out .btn a {
+              background: #ffbc74;
+              color: #af272b;
+              padding: 14px 30px;
+              border-radius: 5px;
+              font-size: 16px;
+              font-weight: bold; }
+          #fd_container .fd_cont2 .award .award_login .login_out .f14 {
+            color: #ffe1a6;
+            padding-top: 10px; }
+            #fd_container .fd_cont2 .award .award_login .login_out .f14 a {
+              color: #ffe1a6;
+              text-decoration: underline; }
+              #fd_container .fd_cont2 .award .award_login .login_out .f14 a:hover {
+                color: #af272b; }
+        #fd_container .fd_cont2 .award .award_login .login_in p {
+          padding-bottom: 7px; }
+        #fd_container .fd_cont2 .award .award_login .login_in .text1 {
+          padding: 10px; }
+          #fd_container .fd_cont2 .award .award_login .login_in .text1 .f18 {
+            color: #fff; }
+          #fd_container .fd_cont2 .award .award_login .login_in .text1 .jd {
+            padding-top: 15px;
+            height: 14px;
+            background: url(../img/fd_login_line_03.jpg) center bottom no-repeat;
+            padding-bottom: 21px;
+            margin-bottom: 10px; }
+            #fd_container .fd_cont2 .award .award_login .login_in .text1 .jd dl {
+              width: 100%;
+              overflow: hidden; }
+              #fd_container .fd_cont2 .award .award_login .login_in .text1 .jd dl dt {
+                float: left;
+                width: 35px;
+                font-size: 12px;
+                color: #ffe1a6; }
+              #fd_container .fd_cont2 .award .award_login .login_in .text1 .jd dl dd {
+                background: #811315;
+                height: 10px;
+                border-radius: 5px;
+                width: 238px;
+                position: relative;
+                float: left; }
+                #fd_container .fd_cont2 .award .award_login .login_in .text1 .jd dl dd i {
+                  display: block;
+                  position: absolute;
+                  top: 0px;
+                  left: 0px;
+                  height: 10px;
+                  background: #ffe1a6;
+                  border-radius: 5px;
+                  width: 50%; }
+        #fd_container .fd_cont2 .award .award_login .login_in .text2 {
+          background: #811315;
+          padding: 10px; }
+  #fd_container .fd_cont3 {
+    width: 1920px;
+    margin: 0 auto;
+    height: 571px;
+    background: url(../img/fd_bg_03.jpg) center top no-repeat;
+    overflow: hidden; }
+    #fd_container .fd_cont3 .fd_gz {
+      padding-top: 20px;
+      color: #ffe1a6; }
+      #fd_container .fd_cont3 .fd_gz dl dt {
+        font-size: 18px;
+        padding-bottom: 16px; }
+      #fd_container .fd_cont3 .fd_gz dl dd {
+        font-size: 14px;
+        line-height: 24px; }
+    #fd_container .fd_cont3 .fd_btn {
+      padding-top: 80px;
+      width: 100%;
+      overflow: hidden;
+      text-align: center; }
+      #fd_container .fd_cont3 .fd_btn a {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 262px;
+        height: 72px;
+        line-height: 60px;
+        font-size: 22px;
+        color: #af272b;
+        font-weight: bold;
+        text-align: center;
+        background: url(../img/fd_btn.png) center top no-repeat;
+        margin: 0 20px; }
+        #fd_container .fd_cont3 .fd_btn a:hover {
+          text-shadow: 1px 1px 0px #666; }
+
+#snow {
+  position: relative;
+  z-index: 2; }
+  #snow .snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2; }
+
+#tip {
+  display: none; }
+  #tip .tip_bg {
+    background: url(../img/alert_black.png) repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100; }
+  #tip .tip_main {
+    width: 532px;
+    height: 488px;
+    background: url(../img/alert_bg.png) center top no-repeat;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -266px;
+    margin-top: -244px;
+    z-index: 101; }
+    #tip .tip_main .tip_main_close {
+      width: 30px;
+      height: 30px;
+      background: url(../img/fd_close.png) center center no-repeat;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      cursor: pointer; }
+    #tip .tip_main .tip_main_cont .tip_main_t {
+      overflow: hidden;
+      text-align: center;
+      height: 268px;
+      padding: 20px;
+      text-align: center; }
+      #tip .tip_main .tip_main_cont .tip_main_t h2 {
+        font-size: 40px;
+        color: #fff;
+        padding-top: 100px; }
+      #tip .tip_main .tip_main_cont .tip_main_t p {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff; }
+      #tip .tip_main .tip_main_cont .tip_main_t img {
+        margin-top: -16px; }
+    #tip .tip_main .tip_main_cont .tip_main_f {
+      overflow: hidden;
+      padding: 20px;
+      height: 138px;
+      text-align: center; }
+      #tip .tip_main .tip_main_cont .tip_main_f .btn {
+        background: #ff4338;
+        font-size: 20px;
+        padding: 16px 60px;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        display: block;
+        width: 140px;
+        margin: 0 auto; }
+        #tip .tip_main .tip_main_cont .tip_main_f .btn:hover {
+          background: #f00c01;
+          box-shadow: 5px 5px 5px #999; }
+      #tip .tip_main .tip_main_cont .tip_main_f p {
+        font-size: 16px;
+        color: #666;
+        padding: 10px 0; }
+        #tip .tip_main .tip_main_cont .tip_main_f p a {
+          color: #4a97d2;
+          text-decoration: underline;
+          padding: 0 5px; }
+
+/*# sourceMappingURL=index.css.map */
